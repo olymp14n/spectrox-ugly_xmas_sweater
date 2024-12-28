@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="intro" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/intro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/intro" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="D:/projects/codeblocks/_lib/winmm-7.1a-win32/WinMM.Lib" />
+		</Linker>
+		<Unit filename="src/client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/client.h" />
+		<Unit filename="src/config/config.h" />
+		<Unit filename="src/dat/audio/song_data.h" />
+		<Unit filename="src/dat/fonts/font_meta.h" />
+		<Unit filename="src/dat/fonts/font_pixels.h" />
+		<Unit filename="src/dat/images/bayer_vertical_pixels.h" />
+		<Unit filename="src/dat/images/bg_1_pixels.h" />
+		<Unit filename="src/dat/images/deer_1_pixels.h" />
+		<Unit filename="src/dat/images/deer_2_pixels.h" />
+		<Unit filename="src/dat/images/frame_1_pixels.h" />
+		<Unit filename="src/dat/images/frame_pattern_1_pixels.h" />
+		<Unit filename="src/dat/images/knit_pixels.h" />
+		<Unit filename="src/dat/images/logo_desire_pixels.h" />
+		<Unit filename="src/dat/images/logo_spectrox_pixels.h" />
+		<Unit filename="src/dat/images/santa_stand_1_pixels.h" />
+		<Unit filename="src/dat/images/santa_stand_2_pixels.h" />
+		<Unit filename="src/dat/images/santa_walk_1_pixels.h" />
+		<Unit filename="src/dat/images/santa_walk_2_pixels.h" />
+		<Unit filename="src/dat/images/tree_pixels.h" />
+		<Unit filename="src/dat/images/tree_stars_pixels.h" />
+		<Unit filename="src/dat/paths/desire_paths.h" />
+		<Unit filename="src/dat/paths/spectrox_paths.h" />
+		<Unit filename="src/fw/animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/animation.h" />
+		<Unit filename="src/fw/broadcast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/broadcast.h" />
+		<Unit filename="src/fw/draw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/draw.h" />
+		<Unit filename="src/fw/easing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/easing.h" />
+		<Unit filename="src/fw/file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/file.h" />
+		<Unit filename="src/fw/font.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/font.h" />
+		<Unit filename="src/fw/glx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/glx.h" />
+		<Unit filename="src/fw/image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/image.h" />
+		<Unit filename="src/fw/lut.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/lut.h" />
+		<Unit filename="src/fw/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/math.h" />
+		<Unit filename="src/fw/micromod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/micromod.h" />
+		<Unit filename="src/fw/object_3d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/object_3d.h" />
+		<Unit filename="src/fw/pixels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/pixels.h" />
+		<Unit filename="src/fw/projection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/projection.h" />
+		<Unit filename="src/fw/quad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/quad.h" />
+		<Unit filename="src/fw/render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/render.h" />
+		<Unit filename="src/fw/sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/sound.h" />
+		<Unit filename="src/fw/stencil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/stencil.h" />
+		<Unit filename="src/fw/sync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/sync.h" />
+		<Unit filename="src/fw/texgen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fw/texgen.h" />
+		<Unit filename="src/fw/types.h" />
+		<Unit filename="src/fx/anim_text.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/anim_text.h" />
+		<Unit filename="src/fx/aurora.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/aurora.h" />
+		<Unit filename="src/fx/knit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/knit.h" />
+		<Unit filename="src/fx/ornaments.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/ornaments.h" />
+		<Unit filename="src/fx/particles.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/particles.h" />
+		<Unit filename="src/fx/path.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/path.h" />
+		<Unit filename="src/fx/snow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/snow.h" />
+		<Unit filename="src/fx/star_3d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/star_3d.h" />
+		<Unit filename="src/fx/twister.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fx/twister.h" />
+		<Unit filename="src/resource.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/resource.h" />
+		<Unit filename="src/scene_0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/scene_0.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
